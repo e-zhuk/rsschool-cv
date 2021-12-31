@@ -14,7 +14,7 @@ Git & GitHub
 
 Education
 University
-Belarusian state economic university, Faculty of Information Technology and Robotics – finished 2021
+Vitebsk State University of Technology, Faculty of Information Technology and Robotics – finished 2021
 
 Courses
 RS School, JavaScript/Front-end. Stage 0 - studying
