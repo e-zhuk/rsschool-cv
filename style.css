@@ -12,3 +12,29 @@
 .info__title {
   padding: 10px;
 }
+
+.footer_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer__link-img-git {
+
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.footer__link-img-rs {
+
+  width: 100px;
+  height: 40px;
+}
