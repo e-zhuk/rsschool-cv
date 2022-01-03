@@ -19,7 +19,7 @@
                         <a href="#about" class="header__link">About me</a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">Skills</a>
+                        <a href="#skills" class="header__link">Skills</a>
                     </li>
                     <li class="header__item">
                         <a href="" class="header__link">Education</a>
@@ -42,6 +42,7 @@
 
     <main class="main">
         <div class="container">
+
             <div class="info">
                 <div class="info__avatar">
                     <img src="assets/avatar.svg" alt="My Avatar">
@@ -50,25 +51,34 @@
                     <h1> Evgeniy Zhuk </h1>
                     <h3>Junior frontend developer</h3>
                 </div>
-
             </div>
 
-            <div class="about">
+            <div class="about" id="about">
                 <h2>About me</h2>
                 <p>
-                    I’m a junior frontend developer. Purposeful, I learn quickly, I cope well with stressful situations!
+                    I`m a junior frontend developer. Purposeful, I learn quickly, I cope well with stressful situations!
                     I want to improve my front-end developer skills.
                 </p>
             </div>
-            <p> Contacts </p>
-            <br>
-            Location: Belarus, Vitebsk
-            <br>
-            Email: ezhukdev@gmail.com
 
-            Skills
+            <div class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="contacts__list">
+                    <li class="contacts__item">Email: ezhukdev@gmail.com</li>
+                    <li class="contacts__item">Telegram</li>
+                    <li class="contacts__item">Discord</li>
+                    <li class="contacts__item">Location: Belarus, Vitebsk</li>
+                </ul>
+            </div>
 
-            HTML & CSS, JavaScript, Git & GitHub
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML & CSS</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">Git & GitHub</li>
+                </ul>
+            </div>
 
             Education
 
@@ -89,7 +99,18 @@
     </main>
 
     <footer>
-
+        <div class="container">
+            <div class="footer_item">
+                <a href="https://github.com/e-zhuk" class="footer__link">
+                    <img src="assets/github-logo.svg" alt="github-logo" class="footer__link-img-git">
+                    <p>My GitHub</p>
+                </a>
+                <span>2022</span>
+                <a href="https://rs.school/js">
+                    <img src="assets/rs_school_js.svg" alt="rs-school-logo" class="footer__link-img-rs">
+                </a>
+            </div>
+        </div>
     </footer>
 
 </body>
