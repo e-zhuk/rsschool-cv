@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
             <nav class="header__nav">
@@ -19,31 +22,31 @@
                         <a href="#about" class="header__link">About me</a>
                     </li>
                     <li class="header__item">
+                        <a href="#contacts" class="header__link">Contacts</a>
+                    </li>
+                    <li class="header__item">
                         <a href="#skills" class="header__link">Skills</a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">Education</a>
+                        <a href="#education" class="header__link">Education</a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">Code example</a>
+                        <a href="#code_example" class="header__link">Code example</a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">Projects</a>
+                        <a href="#projects" class="header__link">Projects</a>
                     </li>
                     <li class="header__item">
-                        <a href="#contacts" class="header__link">Contacts</a>
+                        <a href="#lang" class="header__link">Languages</a>
                     </li>
-
                 </ul>
             </nav>
         </div>
-
     </header>
-
     <main class="main">
         <div class="container">
 
-            <div class="info">
+            <section class="info">
                 <div class="info__avatar">
                     <img src="assets/avatar.svg" alt="My Avatar">
                 </div>
@@ -51,68 +54,87 @@
                     <h1> Evgeniy Zhuk </h1>
                     <h3>Junior frontend developer</h3>
                 </div>
-            </div>
+            </section>
 
-            <div class="about" id="about">
+            <section class="about" id="about">
                 <h2>About me</h2>
                 <p>
                     I`m a junior frontend developer. Purposeful, I learn quickly, I cope well with stressful situations!
                     I want to improve my front-end developer skills.
                 </p>
-            </div>
+            </section>
 
-            <div class="contacts" id="contacts">
+            <section class="contacts" id="contacts">
                 <h2>Contacts</h2>
                 <ul class="contacts__list">
                     <li class="contacts__item">Email: ezhukdev@gmail.com</li>
-                    <li class="contacts__item">Telegram</li>
-                    <li class="contacts__item">Discord</li>
+                    <li class="contacts__item">Discord: Yauheni Zhuk(@e-zhuk)</li>
                     <li class="contacts__item">Location: Belarus, Vitebsk</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="skills" id="skills">
+            <section class="skills" id="skills">
                 <h2>Skills</h2>
                 <ul class="skills__list">
                     <li class="skills__item">HTML & CSS</li>
                     <li class="skills__item">JavaScript</li>
                     <li class="skills__item">Git & GitHub</li>
                 </ul>
-            </div>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <h3>University </h3>
+                <p>Vitebsk State University of Technology, Faculty of Information Technology and Robotics –
+                    finished 2021</p>
+                <h3> Courses</h3>
+                <p>RS School, JavaScript/Front-end. Stage 0 - studying</p>
+            </section>
 
-            Education
-
-            University
-
-            Vitebsk State University of Technology, Faculty of Information Technology and Robotics – finished 2021
-
-            Courses
-
-            RS School, JavaScript/Front-end. Stage 0 - studying
-
-            Languages
-
-            Russian: native speaker
-
-            English: A2 (Pre-intermediate)
+            <section class="code_example" id="code_example">
+                <h2>Code example</h2>
+                <pre>
+  function simpleMultiplication(number) {
+      let output
+      if(!(number % 2))
+         output = number*8
+       else
+          output = number*9
+       return output
+       }
+                </pre>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://e-zhuk.github.io/rsschool-cv/">CV</a></li>
+                </ul>
+            </section>
+            <section class="lang" id="lang">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian: native speaker</li>
+                    <li>English: A2 (Pre-intermediate)</li>
+                </ul>
+            </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer_item">
-                <a href="https://github.com/e-zhuk" class="footer__link">
-                    <img src="assets/github-logo.svg" alt="github-logo" class="footer__link-img-git">
-                    <p>My GitHub</p>
-                </a>
-                <span>2022</span>
-                <a href="https://rs.school/js">
-                    <img src="assets/rs_school_js.svg" alt="rs-school-logo" class="footer__link-img-rs">
-                </a>
+            <div class="footer">
+                <div class="footer_item">
+                    <a href="https://github.com/e-zhuk" class="footer__link">
+                        <img src="assets/github-logo.svg" alt="github-logo" class="footer__link-img-git">
+                        <p>My GitHub</p>
+                    </a>
+                    <h3>2022</h3>
+                    <a href="https://rs.school/js">
+                        <img src="assets/rs_school_js.svg" alt="rs-school-logo" class="footer__link-img-rs">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
